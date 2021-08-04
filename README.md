@@ -4,7 +4,7 @@
 
 Team members: 
 
-- Student 1: [Jason Vorhees](mailto:jbeck1261@floridapoly.edu)
+- Student 1: [Jason Beck](mailto:jbeck1261@floridapoly.edu)
 
 - Student 2: [Deven Seerattan](mailto:dseerattan1238@floridapoly.edu)
 
