@@ -4,11 +4,13 @@
 
 Team members: 
 
-- Student 1: [Rei Sanchez-Arias](mailto:rsanchezarias@floridapoly.edu)
+- Student 1: [Jason Vorhees](mailto:jbeck1261@floridapoly.edu)
 
 - Student 2: [Deven Seerattan](mailto:dseerattan1238@floridapoly.edu)
 
-- Student 3: [Student name](mailto:student3@floridapoly.edu)
+- Student 3: [Seth LaChance](mailto:slachance1551@floridapoly.edu)
+
+- Student 4: [Rosa Parks](mailto:@floridapoly.edu)
 
 
 **Summary**
