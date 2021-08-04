@@ -10,7 +10,7 @@ Team members:
 
 - Student 3: [Seth LaChance](mailto:slachance1551@floridapoly.edu)
 
-- Student 4: [Rosa "Gabrielle" Parks](mailto:@floridapoly.edu)
+- Student 4: [Rosa "Gabrielle" Parks](mailto:grosa@floridapoly.edu)
 
 
 **Summary**
