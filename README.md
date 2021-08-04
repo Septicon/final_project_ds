@@ -1,6 +1,6 @@
 # Final Project for Intro to Data Science
 
-## Term YYYY
+## Term 2021
 
 Team members: 
 
@@ -15,6 +15,5 @@ Team members:
 
 **Summary**
 
-Our project investigates the main characteristics of popular movies in recent years.
-We will be using the data available at: 
+We as gamers have a profound interest and knowledge into the competitive scene and because of this we have decided that we shall be taking a look into a Valorant tournament that took place in Iceland: 
 <https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv> 
