@@ -5,7 +5,7 @@
 We use the `player_stats.csv` dataset available at 
 <https://github.com/Septicon/final_project_ds/blob/master/data/player_stats.csv>
 
-This dataset includes information on how the players in a Valorant Tournament. 
+This dataset includes information on how well the players in a Valorant Tournament played. 
 
 The data fields included are: Players, Countries, Teams, Agents, Maps, K, D, A, KD, KDA, ACS/Map, K/Map, D/Map, A/Map
 
