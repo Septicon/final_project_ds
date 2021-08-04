@@ -3,16 +3,14 @@ title: "Project Proposal"
 output: html_notebook
 ---
 
-(notice that you can reuse some of the sections below for the final project report)
-
 ## Section 1. Introduction
 
-Include a brief **introduction or motivation** here
+We are all gamers in this, thus as gamers we wanted to analyze the VCT Masters Tournament 2021.
 
 ## Section 2. Data Analysis Plan
 
-List any **initial questions** you plan to explore in this project. 
+We will be **visualizing the dataset**? Looking at the **maximum and minimum KDA**? Look at who was the **best player** on each team? Who played on the **most maps** and if so what are the **average KD** efficiency of the people that played? what is the **median value for KDA**?
 
 ## Section 3. Data
 
-Include a brief **description of your dataset** (source, available attributes, format, etc.)
+This dataset includes all the players **stats** who participated in the **VCT Masters 2021**. (https://www.kaggle.com/jaykumar1607/valorant-masters-2021-player-map-data?select=player_stats.csv)
