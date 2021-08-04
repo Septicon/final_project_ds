@@ -9,6 +9,6 @@ This dataset includes information on how well the players in a Valorant Tourname
 
 The data fields included are: Players, Countries, Teams, Agents, Maps, K, D, A, KD, KDA, ACS/Map, K/Map, D/Map, A/Map
 
-Below we include some basic statistics for this datasets, including dimensions and range of years ...
+
 
 (add basic summary if needed. Notice that the information above can be reused for one of the sections for the final project report)
