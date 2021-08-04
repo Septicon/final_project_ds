@@ -1,13 +1,13 @@
-# Data Description: IMDB popular movies data
+# Data Description: Statistics of a Valorant Tournament
 
 (this is an example only. Edit this file as you see fit. It is recommended that you also include a copy of the original data used for this project in this folder - typically in `.csv` format)
 
-We use the `IMDB_movies.csv` dataset available at 
-<https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv>
+We use the `player_stats.csv` dataset available at 
+<https://github.com/Septicon/final_project_ds/blob/master/data/player_stats.csv>
 
-This dataset includes information of popular movies on IMDB in the last 10 years. 
+This dataset includes information on how the players in a Valorant Tournament. 
 
-The data fields included are: Title, Genre, Description, Director, Actors, Year, Runtime, Rating, Votes, Revenue, Metascore (score of the movie on the metacritic website)
+The data fields included are: Players, Countries, Teams, Agents, Maps, K, D, A, KD, KDA, ACS/Map, K/Map, D/Map, A/Map
 
 Below we include some basic statistics for this datasets, including dimensions and range of years ...
 
