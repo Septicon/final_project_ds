@@ -16,4 +16,4 @@ Team members:
 **Summary**
 
 We as gamers have a profound interest and knowledge into the competitive scene and because of this we have decided that we shall be taking a look into a Valorant tournament that took place in Iceland: 
-<https://github.com/reisanar/datasets/blob/master/IMDB_movies.csv> 
+<https://github.com/Septicon/final_project_ds/blob/master/data/player_stats.csv> 
