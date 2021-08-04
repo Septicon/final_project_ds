@@ -1,0 +1,92 @@
+---
+title: "Report"
+output: html_notebook
+---
+
+```{r}
+library(tidyverse)
+library(ggplot2)
+library(readr)
+```
+
+```{r}
+players <- read_csv("player_stats.csv")
+#This code takes the function read_csv and reads the player_stats.csv and then assigns it to the variable players.
+```
+
+```{r}
+players
+#This code calls the established variable
+```
+
+Idea 1: Visualize the data set!
+
+```{r}
+ggplot(data = players) +
+  geom_histogram(aes(x = KDA), binwidth = .09)
+#Code make graph
+```
+```{r}
+ggplot(data = players) +
+  geom_histogram(aes(x = KD), binwidth = .09)
+#Make graph electric boogaloo
+```
+
+
+
+
+
+Idea 2: Maximum, minimum, and average KDA ratios.
+
+```{r}
+maximum_KDA_ratio <- players %>% 
+  group_by(KDA) %>% 
+  filter(KDA >= 1.6)
+maximum_KDA_ratio
+#This code filters the table to only show players that have a KDA higher then 1.6
+```
+
+```{r}
+minimum_KDA_ratio <- players %>% 
+  group_by(KDA) %>% 
+  filter(KDA <= 0.8)
+minimum_KDA_ratio
+#This code then filters the table to show all players with a KDA lower then 0.8
+```
+
+```{r}
+average_KDA_ratio <-
+  players %>%
+  group_by(KDA) %>% 
+  summarise(players, average_KDA = mean(KDA))
+
+average_KDA_ratio  
+#This code first groups the players by their KDA then averages the KDA together
+```
+
+
+Idea 3: Who was the best player on each team?
+
+```{r}
+
+```
+
+Idea 4: Who played on the most maps. If there are several what is the KD efficiency of each player?
+
+```{r}
+players %>% 
+  group_by(Maps) %>% 
+  summarize(
+     maximum_maps_played = filter(Maps = 16)
+  )
+```
+
+Idea 5: What are the median values for KDA.
+
+```{r}
+players %>%
+group_by(KDA)
+  summarise(players, KDA_Median = median(KDA, na.rm = TRUE))
+
+```
+
