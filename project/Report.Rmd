@@ -23,12 +23,14 @@ Idea 1: Visualize the data set!
 
 ```{r}
 ggplot(data = players) +
-  geom_histogram(aes(x = KDA), binwidth = .09)
+  geom_histogram(aes(x = KDA), binwidth = .09) +
+  labs(title = "Distribution of KDA", y = "Amount of Players", y = " ")
 #This code uses ggplot to create a graph that shows the distribution of the players Kill's Death's and Assist's
 ```
 ```{r}
 ggplot(data = players) +
-  geom_histogram(aes(x = KD), binwidth = .09)
+  geom_histogram(aes(x = KD), binwidth = .09) +
+  labs(title = "Distribution of KD", y = "Amount of Players", y = " ")
 #This code is the same as the one above but instead shows the distribution of Kill's and Death's without assists
 ```
 
