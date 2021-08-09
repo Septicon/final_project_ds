@@ -24,12 +24,12 @@ Idea 1: Visualize the data set!
 ```{r}
 ggplot(data = players) +
   geom_histogram(aes(x = KDA), binwidth = .09)
-#Code make graph
+#This code uses ggplot to create a graph that shows the distribution of the players Kill's Death's and Assist's
 ```
 ```{r}
 ggplot(data = players) +
   geom_histogram(aes(x = KD), binwidth = .09)
-#Make graph electric boogaloo
+#This code is the same as the one above but instead shows the distribution of Kill's and Death's without assists
 ```
 
 
@@ -68,25 +68,30 @@ average_KDA_ratio
 Idea 3: Who was the best player on each team?
 
 ```{r}
-
+players %>%                                     
+  arrange(desc(KDA)) %>% 
+  group_by(Team) %>%
+  slice(1)
+#This code finds the best players of each team and shows their stats
 ```
 
 Idea 4: Who played on the most maps. If there are several what is the KD efficiency of each player?
 
 ```{r}
 players %>% 
-  group_by(Maps) %>% 
-  summarize(
-     maximum_maps_played = filter(Maps = 16)
-  )
+  filter(Maps == 16) %>%
+  summarize(Player, KD, Maps)
+#This code shows which players played on the most amount of maps and what their KD was overall
 ```
 
 Idea 5: What are the median values for KDA.
 
 ```{r}
 players %>%
-group_by(KDA)
+  group_by(KDA) 
   summarise(players, KDA_Median = median(KDA, na.rm = TRUE))
+  
+#This code finds the median of all the players KDA
 
 ```
 
